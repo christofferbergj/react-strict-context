@@ -1,0 +1,32 @@
+{
+  "arrowParens": "always",
+  "jsxSingleQuote": false,
+  "plugins": [
+    "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-jsdoc",
+    "prettier-plugin-packagejson"
+  ],
+  "printWidth": 100,
+  "proseWrap": "preserve",
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
+  "importOrder": [
+    "^react$",
+    "<BUILTIN_MODULES>",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "<TYPES>",
+    "<TYPES>^[.]",
+    "",
+    "^@/(.*)$",
+    "",
+    "^[./]",
+    "",
+    "^(?!.*[.]css$)[./].*$",
+    ".css$"
+  ],
+  "importOrderTypeScriptVersion": "5.5.3"
+}
